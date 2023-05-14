@@ -13,10 +13,9 @@ git clone git@github.com:stefanopier/avril14thUIProxy.git
 npm install  
 DEBUG=avril14thuiproxy:* npm start
 ```
+```
 npm install pm2 -g
 pm2 start app.js
-
-```
 ```
 
 ### TODOS
