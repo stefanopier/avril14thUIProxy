@@ -11,9 +11,11 @@ Nodejs Http proxy based on Express and [http-proxy-middleware] (https://github.c
 ```
 git clone git@github.com:stefanopier/avril14thUIProxy.git  
 npm install  
-$ DEBUG=myapp:* npm start
-
+DEBUG=avril14thuiproxy:* npm start
 ```
+npm install pm2 -g
+pm2 start app.js
+
 ```
 ```
 
